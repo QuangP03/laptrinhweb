@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đăng nhập</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="login-container">
+        <h2>Đăng nhập</h2>
+        <div class="container">
+            <header>
+                <nav>
+                    <a href="index.html">Home</a>  |
+                    <a href="login.html">Đăng nhập</a>|
+                    <a href="login.html">Đăng xuất</a>
+                </nav>
+            </header>
+        </div>
+        <form id="loginForm ">
+            <label for="username">Username</label>
+            <input type="text" id="username" required>
+
+            <label for="password">Mật khẩu</label>
+            <input type="password" id="password" required>
+
+            <div class="remember">
+                <input type="checkbox" id="rememberMe">
+                <label for="rememberMe">Ghi nhớ đăng nhập</label>
+            </div>
+
+            <button type="submit">Đăng nhập</button>
+        </form>
+        <p class="error-message" id="errorMessage"></p>
+        <a href="#">Quên mật khẩu?</a>
+    </div>
+
+    <script src="js/js.js"></script>
+</body>
+</html>
